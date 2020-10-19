@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style41.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.0.js"
+        integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
+    <script src='script41.js'></script>
+    <title>SCOREKEEPER PROJECT</title>
+</head>
+
+<body>
+    <section id='main'>
+
+        <label> Number Of Players:
+            <input type='number' value=1 min=1 max=25 id='players'>
+        </label><br>
+
+
+        <label> Target Score:
+            <input type='number' value=0 onchange="targetScore();" name='number' id='score'>
+        </label><br>
+
+        <label> Score indication:
+            <input onclick="scoreIndication();" id='winner' value='winner' type="radio" name='score indication'>
+            Winner
+            <input onclick="scoreIndication();" id='loser' type='radio' value="Loser" name='score indication'>
+            Loser
+        </label><br>
+        <button type="button" class="btn btn-warning btn-lg" onclick="goToReset();" id='reset'>RESET</button>
+
+        <div id="scorebox">
+        <div id="scorescreen"><span id="finalscore">0</span></div>
+    </div>
+    </section>
+        <section id='additional'>
+        <div id='resultstable'></div>
+
+        <div id='div'></div>
+    </section>
+</body>
+
+</html>

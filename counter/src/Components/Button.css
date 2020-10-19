@@ -1,0 +1,46 @@
+.Buttons{
+    margin: 5rem 2rem;
+    padding:1rem 3rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: white;
+    
+}
+.Res{
+    background-color: rgb(226, 142, 170);
+}
+
+
+.Buttons:hover{
+transform: scale(1.1);
+font-weight: bold;
+
+}
+.Res:hover{
+    color: rgb(226, 142, 170);
+    border-color: rgb(226, 142, 170);
+    background-color: white;
+    
+    }
+
+.Fontawesome{
+    padding-right: 0.5rem;
+    font-size: 2rem;
+}
+.Dis{
+    cursor: not-allowed;
+}
+@media(max-width:780px){
+    .Buttons{
+        display: none;
+    }
+}
+@media(min-width:780px) and (max-width:1500px){
+    .Buttons{   
+         margin: 1rem 1rem;
+        padding:1rem 1rem;
+        
+    }
+}

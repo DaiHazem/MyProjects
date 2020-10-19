@@ -1,0 +1,89 @@
+#unique{
+    
+    margin-top:7%;
+    margin-bottom: 2%;
+}
+   
+body{
+    background: linear-gradient(90deg,#2BC0E4 20%,#EAECC6 80%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+ul{
+    list-style: none;
+    padding-left:0px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+
+ .trash,.finished{
+    display: none;
+    color: rgb(255, 0, 76);
+    padding:12.5px 3px;
+    cursor: pointer;
+
+}
+.show{
+    display: inline;
+}
+
+li{
+    padding:10px 10px 10px 0px;
+    
+    
+    
+}
+h1,input{
+    padding:5px;
+    width:100%;
+    margin:0px;
+    border:0px;
+}
+h1 i{
+    
+    padding-left: 32px;
+    
+    
+
+}
+
+h1{
+    background-color: rgb(196, 194, 89);
+     
+}
+
+li:nth-child(even){
+    background-color: white;
+}
+li:nth-child(odd){
+    background-color:rgb(238, 238, 182);
+}
+
+input:hover{
+    border: solid 2px black;
+            
+    
+}
+
+.done{
+    text-decoration-line: line-through;
+}
+
+#one{
+    cursor: pointer;
+}
+
+#chance{
+    display: inline;
+   color:olivedrab;
+}
+#suredelete{
+    display:inline;
+    color: rgb(255, 0, 76);
+
+}
+
+
+

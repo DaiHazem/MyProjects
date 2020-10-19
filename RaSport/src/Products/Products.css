@@ -1,0 +1,161 @@
+.Content{
+    margin-left:25%;
+}
+
+.Content p{
+    font-weight: 600;
+    opacity:0.9;
+}
+.Circle3:hover{
+    transform: scale(1.2);
+}
+
+.Content h2{
+ font-weight: 900;
+ font-size: 1.6em;
+
+}
+.Circle3{
+    color: white;
+    background-color: rgba(23, 163, 128, 0.952);
+    height:60px;
+    width:60px;
+    display:block;
+    font-size: 1.8em;
+    text-align: center;
+    border:solid rgba(23, 163, 128, 0.952) 3px;
+    border-radius: 35px;
+    margin-top: 2%;
+    margin-left: 14%;
+    cursor: pointer;
+    position: relative;
+}
+.Last{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-top:4%;
+
+}
+
+ .Content{
+    margin-left:25%;
+}
+
+.Content p{
+    font-weight: 600;
+    opacity:0.9;
+}
+
+.Content h2{
+ font-weight: 900;
+ font-size: 1.6em;
+
+}
+
+.Circle3 span{
+    font-size:0.5em;
+    font-family: monospace;
+    display: inline-block;
+    padding: 5px;
+    height: 40px;
+    position: absolute;
+    color:black;
+    width: 5px;
+    left: 36%;   
+   bottom:50%;
+    transform-origin:bottom center;
+    font-weight: 900;
+    
+}
+.Letter1{
+    transform :rotate(-100deg);
+}
+
+.Letter2{
+    
+    transform:rotate(-82deg)
+}
+.Letter3{
+    transform:rotate(-64deg)
+}
+.Letter4{
+    transform:rotate(-46deg)
+}
+.Letter5{
+    transform:rotate(-26deg)
+}
+.Letter6{   
+    transform:rotate(-8deg)
+}
+.Letter7{    
+    transform:rotate(10deg)
+}
+.Letter8{   
+    transform:rotate(28deg)
+}
+.Letter9{    
+    transform:rotate(46deg)
+}
+.Letter10{    
+    transform:rotate(64deg)
+}
+
+.Letter11{
+    transform: rotate(84deg);
+}
+.Letter12{
+    transform: rotate(104deg);
+}
+
+
+@media(max-width:1240px){
+      
+    .Content h2{
+        font-size: 1.2em;
+        margin-top:3%;
+       
+       }
+       
+}
+ 
+
+.Rotated3{
+   opacity: 0.9;
+    font-size: 1.7rem;
+    color: white;
+     position: absolute;
+     left:40%;
+     top: 30%;
+ }
+ 
+    
+             
+     
+        .Steps{
+            display:grid;
+            grid-template-columns: repeat(3,0.5fr);
+            grid-template-rows: repeat(1,3vw);
+            margin-left:18%;
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+
+        .Steps span:nth-of-type(2n+1){
+            font-size: 0.6em;
+        }
+
+        .Steps span{
+            display: block;
+            margin:4%;
+            font-weight: 700;
+        }
+
+        .Steps .Icon{
+            color: rgba(23, 163, 128, 0.952);
+        }
+
+        @media(min-width:300px) and (max-width:700px){
+            .Steps span:nth-of-type(2n+2){
+                font-size: 0.8em;
+            }
+        }

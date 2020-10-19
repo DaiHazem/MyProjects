@@ -1,0 +1,71 @@
+.Wrapper,.RightWrapper{
+    margin:3rem  1rem ;
+    text-align: center;
+    border:solid rgb(7, 6, 6) 2px;
+    border-radius: 15px;
+    padding:1rem ;
+    display: inline-block;
+    background-color: white;
+    
+}
+
+
+.Wrapper h1,.RightWrapper h1{
+    font-size: 5rem;
+    font-weight: bold;
+    color:black;
+    
+}
+
+.Screen{
+    margin: 3rem 0 1rem 0;
+    font-size: 6rem;
+    font-weight: bold;
+}
+.Mob{
+    display: none;
+}
+.Wrapper label, .RightWrapper label{
+    font-size: 2rem;
+    margin:1rem;
+    background-color: white;
+    border:1px solid rgb(12, 12, 12);
+    padding:0.4rem 1rem;
+    border-radius: 5px;
+}
+.DisabledSlider{
+    cursor: not-allowed;
+}
+.Red{
+    background-color:  rgb(126, 34, 65);
+    
+}
+.Green{
+    background-color: rgb(168, 214, 214);
+}
+
+ p{
+     font-size: 3rem;
+     margin:2rem;
+ }   
+
+@media(max-width:780px){
+    .Mob{
+        display: block;
+        cursor: pointer;
+        font-size: 3rem;
+        padding:2rem 0;
+        text-decoration: underline;
+
+    }
+
+    .Reset{
+        color: rgb(226, 142, 170);
+
+    }
+    
+    .Mob:hover{
+        transform: scale(1.1);
+        font-weight: bold;
+    }
+}

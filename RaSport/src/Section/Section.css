@@ -1,0 +1,155 @@
+.Containerbox{
+    display: flexbox;
+    margin:8%;
+    position: relative;
+    
+}
+
+.Containerbox img:nth-of-type(1){
+    width:40%;
+    height:80%;
+    object-fit: cover;
+    z-index: -1;
+    position:absolute;
+    left:1%;
+    top:25%;
+    object-position: 0 10%;
+}
+
+.Containerbox img:nth-of-type(2){
+    width:35%;
+    height:22%;
+    object-fit: cover;
+    padding-left:18%;
+    padding-top: 46%;
+    margin-right: 0;
+}
+
+.Containerbox img{
+    width: 100%;
+    display: block;
+}
+
+.Section{
+    float: right;
+    width:45%;
+    display:block;
+    position: absolute;
+    top:17%;
+    left: 55%;
+    z-index: 2;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.Section h3{
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.Span1{
+    color: rgba(23, 163, 128, 0.952);
+}
+
+.Span2{
+    font-weight: 700;
+    margin-bottom:10%;
+    display:inline-block;
+    cursor: pointer;
+}
+
+@media(min-width:300px) and (max-width:500px){
+.Containerbox{
+    margin-bottom: 30%;
+}
+
+    .Containerbox img:nth-of-type(1){
+        top:25%;
+        
+
+    }
+    .Containerbox img:nth-of-type(2){
+        padding-top: 40%;
+        width: 25%;
+        height:45% ;
+    }
+    .Section{
+        font-size: 0.8em;
+        width: 55%;
+        left:48%;
+    }
+    
+
+    .Section h3{
+        font-size:0.9em;
+    }
+}
+
+@media(min-width:500px) and (max-width:630px){
+    .Section{
+        font-size:1em ;
+    }
+
+    .Section h3{
+        font-size:1.2em ;
+    }
+}
+
+@media(min-width:630px) and (max-width:1000px){
+    .Section{
+        font-size:1.2em ;
+    }
+
+    .Section h3{
+        font-size:1.4em ;
+    }
+}
+@media(min-width:900px) and (max-width:1000px){
+    .Section{
+        font-size:1.2em ;
+    }
+
+    .Section h3{
+        font-size:1.4em ;
+    }
+}
+
+@media(min-width:500px) and (max-width:900px){
+    .Containerbox{
+        margin-bottom: 10%;
+    }
+    
+        .Containerbox img:nth-of-type(1){
+            top:25%;
+            
+    
+        }
+        .Containerbox img:nth-of-type(2){
+            padding-top: 45%;
+            width: 25%;
+            height:65% ;
+        }
+        .Section{
+            
+            width: 50%;
+        }
+        
+    
+       
+    }
+
+    .Span2:hover{
+        color:rgba(23, 163, 128, 0.952);
+        
+    }
+
+    @media(min-width:900px){
+        .Section{
+            line-height: 1.5em;
+            letter-spacing:1px;
+        }
+
+        .Containerbox img:nth-of-type(1){
+            width:50%;
+        }
+    }

@@ -1,0 +1,73 @@
+
+.Span1,.Span2,.Span3{
+    display: block;
+    margin-left:4%;
+}
+
+.Span1{
+    margin-top:4%;
+    
+}
+
+.Span2{
+    color: grey;
+}
+
+.Span3{
+    color: rgba(23, 163, 128, 0.952);
+    font-weight: 700;
+}
+
+ .Fig2 {
+   
+    object-fit: cover;
+    display:block;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+ 
+
+.Div1 img{
+    height:200%;
+}
+.Pic{
+    width:100%;
+    height: 100%;
+    position: relative;
+   
+    
+}
+
+
+ .Div5 .Fig2 {
+    object-position: 20% 0;
+}
+
+ .Fig1 {
+   position: absolute;
+    object-fit: cover;
+   display:block;
+    width:1%;
+    top:0%;
+    left:0%;
+    height:40%;
+    z-index: 1;
+}
+
+
+
+@media(min-width:300px) and (max-width:700px){
+    
+    .Fig1{
+        width:27%;
+        height:15%;
+    }
+}
+    
+   
+
+ 
+

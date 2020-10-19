@@ -1,0 +1,69 @@
+.Auth {
+    margin: 100px auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 2px 3px grey;
+    border: 1px solid #eee;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 600px) {
+    .Auth {
+        width: 500px;
+    }
+}
+.Buttons {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    opacity:1;
+}
+
+.Signin:active{
+    border:solid 3px lightblue;
+}
+.Signup:active{
+    border:solid 3px rgb(221, 183, 183);
+}
+.Submit:active{
+    border:solid 3px rgb(187, 207, 188);
+}
+.Opac{
+    opacity:0.6;
+}
+
+.Signin{
+    background-color: rgb(64,164,200);
+    border-radius:8px;
+    margin: auto;
+    border:solid white 2px;
+    margin-top:10px;
+
+}
+
+.Signup{
+    background-color: #944317;
+    border-radius:8px;
+    margin: auto;
+    border:solid white 2px;
+    padding-left:5px;
+    margin-top:10px;
+
+}
+.Signup:hover, .Signin:hover{
+    opacity:1;
+}
+
+.Submit{
+    background-color:#5C9210;
+    border-radius:8px;
+    margin:auto;
+    margin-top: 20px ;
+}

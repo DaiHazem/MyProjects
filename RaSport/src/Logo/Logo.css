@@ -1,0 +1,19 @@
+.Logo{
+padding-right:30px;
+height:55%;
+
+}
+
+
+
+.Logo img{
+    height:100%;
+}
+
+
+@media(max-width:800px){
+    .Logo{
+        height:35%;
+        padding-right:6px ;
+    }
+}

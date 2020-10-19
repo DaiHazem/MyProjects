@@ -1,0 +1,181 @@
+body{
+    margin:20px;
+    background-size: cover;
+    background-image: url('backi/photo-main-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    font-weight:900;
+    font-size: 1.2rem;
+    
+}
+
+html{
+    height: 100%;
+}
+
+#main{
+    background-color: white;
+    opacity: 0.85;
+    font-weight: 900;
+    border-radius: 10px;
+    padding:15px;
+    text-align: center;
+    margin:10px;
+    margin-left:auto;
+    margin-right: auto;
+    width:50%;
+}
+
+#scorescreen{
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border:solid 5px rgb(75, 72, 72);
+    background-color: white;
+    width:5rem;
+    height:5rem;
+    font-size:2rem;
+    font-weight: 900;
+    box-shadow: rgb(66, 160, 248) 5px 5px  5px ;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   
+}
+#scorebox{
+    position: fixed;
+    top:5px;
+    right:5px;
+    text-align: center;
+    width:250px;
+    height: 200px;
+
+
+}
+
+
+  
+  @keyframes example {
+    0%   {background-color:rgb(193, 90, 214); left:0px; top:0px;}
+    25%  {background-color:yellow; left:150px; top:0px;}
+    50%  {background-color:rgb(66, 160, 248); left:150px; top:200px;}
+    75%  {background-color:rgb(87, 212, 87); left:0px; top:200px;}
+    100% {background-color:rgb(245, 63, 103); left:0px; top:0px;}
+  }
+
+
+
+
+@media(max-width:900px){
+    #main{
+        width:92%;
+    }
+    #div{
+        display:none;
+    }
+    #scorescreen{
+        display:none;
+    }
+}
+
+
+#resultstable{
+    text-align: center;
+   
+       
+}
+
+#div{
+    position: relative;
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 0;
+}
+
+@keyframes example2 {
+    0%   {background-color:rgb(193, 90, 214); left:20px; border-radius: 5px; }
+    25%  {background-color:yellow; left:-20px;border-radius: 5px;}
+    50%  {background-color:rgb(66, 160, 248); left:20px;border-radius: 5px;}
+    75%  {background-color:rgb(87, 212, 87); left:-20px;border-radius: 5px; }
+    100% {background-color:rgb(245, 63, 103); left:20px; border-radius: 5px;}
+  }
+
+table{
+    border:2px solid white;
+    border-radius:10px;
+    width:100%;
+    margin-top: 7%;
+    
+    background-color: black;
+    color:rgb(193, 90, 214);
+    margin-left:auto;
+    margin-right: auto;
+}
+
+ .table{
+
+    display: block;
+    color:rgb(193, 90, 214);
+    margin-bottom: 10px;
+}
+
+
+.tbody{
+    display: inline-block;
+    overflow:auto;
+    width:100%;
+}
+
+tr,td{
+    border:solid 2px white  ;
+        
+}
+
+#reset{
+    
+    font-weight: 700;
+}
+
+#addbutton{
+    background-color:rgb(245, 63, 103);
+    font-weight: 900;
+    border-radius: 5px;
+    border:solid 1px white;
+    
+}
+#add{
+    margin:3px;
+    width:70px;
+}
+
+input:focus{
+    border:solid 2px rgb(0, 110, 255);
+   border-radius: 2px;
+   font-weight: 700;
+}
+#div{
+    font-size:2.3rem;
+    color:rgb(193, 90, 214);
+    text-shadow: 5px 8px 22px silver;
+  
+}
+
+
+#score{
+    width:70px;
+}
+
+#additional{
+    background-color: white;
+    opacity: 0.85;
+    font-weight: 900;
+    border-radius: 10px;
+    text-align: center;
+    margin:10px;
+    margin-left:auto;
+    margin-right: auto;
+    
+}

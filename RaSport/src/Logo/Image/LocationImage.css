@@ -1,0 +1,205 @@
+
+.Map img{
+    width:100%;
+    clear: both;
+    display:block;
+    object-fit: cover;
+    height: 80%;
+    margin-bottom:5%;
+    margin-top: 5%;
+
+}
+
+
+.Header h4{
+    font-size:1.6em;
+    font-weight: 900;
+    text-align: center;
+}
+
+.Header span{
+    color:rgba(23, 163, 128, 0.952);
+}
+
+
+    
+
+
+.Icon{
+    color:rgba(23, 163, 128, 0.952);
+    margin:10px;
+
+}
+
+.Header{
+    display: block;
+    text-align: center;
+}
+
+.Side{
+    background-color: white;
+    width:10%;
+    height:20%;
+    border-radius: 8px;
+    position: absolute;
+    float: left;
+    z-index:80;
+    left:20%; 
+    top: 52%;
+    text-align: center;
+
+
+}
+.Map{
+    position: relative;
+}
+.Button:hover{
+    transform: scale(1.1);
+}
+.Side button{
+    background-color:rgba(23, 163, 128, 0.952) ;
+    color:white;
+    font-weight: 600;
+    font-size: 1em;
+    width: 90%;
+    text-align: center;
+    border:solid 2px white;
+    border-radius:6px;
+    margin:1%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.Dropdown .Dropbtn {
+    border: 2px solid #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    padding: 14px 16px;
+    background-color: rgba(23, 163, 128, 0.952);
+    margin: 0; 
+    position: relative;
+  }
+  
+   .Dropdown:hover .Dropbtn {
+    background-color:rgb(187, 44, 44);
+  }
+  
+  .Content {
+    display: none;
+    position: absolute;
+    
+
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 3000;
+  }
+  
+  .Content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .Down{
+      margin:3px;
+  }
+  .Content a:hover {
+    background-color: #ddd;
+  }
+  .Dropdown {
+    text-align: center;
+    display: inline-block;
+   
+    margin: 1%;
+   
+    overflow: hidden;
+  }
+  
+/* Show the dropdown menu on hover */
+.Dropdown:hover .Content {
+    display: block;
+  }
+
+  .Show {
+    display: block;
+  }
+  @media(min-width:300px) and (max-width:560px){
+    .Header h4{
+        margin-top: 10%;
+        font-size:1.2em;
+       
+    }
+
+    .Dropdown .Content{
+        min-width:80px;
+       
+    }
+    .Content a{
+        font-size:0.7rem;
+        padding:5px 8px;
+    }
+    .Dropdown .Dropbtn {
+       
+        padding: 5px 10px;
+        font-size: 0.7rem;
+    
+    }
+    .Header{
+        margin-top: 50%;
+    }
+      
+    .Header div{
+       
+        padding:5px 10px;
+       
+    }
+    
+    
+    .Side{
+        width:25%;
+        height:25%;
+        left:15%; 
+        top: 62%;
+        font-size: 0.7em;
+     
+    }
+   
+    .Side button{
+       
+        font-size: 0.7em;
+        width: 80%;
+        
+    }
+
+    .Icon{
+        margin: 5px ;
+    }
+    
+}
+
+@media(min-width:400px) and (max-width:700px){
+
+    .Header{
+        margin-top: 30%;
+    }
+}
+
+@media(min-width:560px) and (max-width:953px){
+        .Side{
+        width:20%;
+        height:28%;
+       
+        }
+} 
+
+    

@@ -1,0 +1,54 @@
+body{
+    background-color: pink;
+    font-family:"Nunito","sans-serif";
+    width:100%;
+}
+
+ #mainnav a{
+    color:white;
+    
+}
+
+#mainnav .navbar-brand{
+    color:purple;
+}
+
+#mainnav a:hover{
+    color:silver;
+}
+
+#heading h1{
+    font-weight:100;
+    color:white;
+}
+
+#heading span{
+    color:silver;
+}
+html{
+    width:100%;
+}
+@media(max-width:1000px){
+    #heading h1{
+        font-size:1.7rem;
+    }
+}
+@media(max-width:900px){
+    #heading h1{
+        font-size:1.2rem;
+    }
+}
+
+section{
+    margin-bottom: 80px;
+}
+
+section h4{
+    color:white;
+    
+}
+
+section p{
+    color:purple;
+    line-height:2;
+}

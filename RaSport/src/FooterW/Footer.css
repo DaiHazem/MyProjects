@@ -1,0 +1,82 @@
+.Footer{
+    text-align:center;
+}
+
+.Input{
+    position: relative;
+}
+
+.Footer h5{
+    font-size: 1.8em;
+    font-weight: 900;
+
+}
+
+.Footer .Footerspan:hover{
+    font-weight: 900;
+    transform: scale(1.1);
+}
+.Footer .Footerspan{
+    color:rgba(23, 163, 128, 0.952);
+    text-decoration: underline;
+    cursor: pointer;
+    position: absolute;
+    left:68%;
+    top:0.5em;
+}
+
+.Footer input{
+    width:46%;
+    padding:2%;
+}
+
+.Footer h6{
+    font-size: 1.6em;
+    font-size: 800;
+    margin-bottom: 1% ;
+}
+
+.Footer p{
+    width:50%;
+    text-align: center;
+    margin:auto;
+}
+
+.Footerlogo{
+    margin-bottom: 1%;
+    padding-top: 5%;
+}
+
+
+@media(min-width:300px) and (max-width:500px){
+    .Footer h5{
+        font-size: 1.2em;
+    }
+    .Footer input{
+        width:80%;
+
+    }
+    .Footer h6{
+        font-size:1em;
+    }
+    .Footer p{
+        width:70;
+    }
+    
+
+    
+}
+@media(min-width:504px){
+    .Footer .Footerspan{
+        left:65%;
+        top:1.2em;
+    }
+}
+
+@media(min-width:300px) and (max-width:700px){
+    .Footer img:last-of-type{
+        width:80%;
+    }
+
+    
+}

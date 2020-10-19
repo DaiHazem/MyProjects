@@ -1,0 +1,16 @@
+export const addingredient="ADD_INGREDIENT";
+export const removeingredient="REMOVE_INGREDIENT";
+export const getingredients="GET_INGREDIENTS";
+export const ingredientsfailure="INGREDIENTS_FAILURE";
+export const orderpurchased="ORDER_PURCHASED";
+export const orderfailed="ORDER_FAILED";
+export const purchasestart="PURCHASE_START";
+export const orderend="ORDER_END";
+export const fetchordersstart="FETCH_ORDERS_START";
+export const fetchorderssuccess="FETCH_ORDERS_SUCCESS";
+export const fetchordersfailure="FETCH_ORDERS_FAILURE";
+export const authstart="AUTH_START";
+export const authsuccess="AUTH_SUCCESS";
+export const authfail="AUTH_FAIL";
+export const authlogout="AUTH_LOGOUT";
+export const setauthredirectpath="SET_AUTH_REDIRECT_PATH";

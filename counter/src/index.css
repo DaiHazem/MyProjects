@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+@media(max-width:780px){
+  body{
+    background-color: rgb(221, 215, 196);
+  }
+}
+html {
+  font-size: 62.5%;
+}
+  @media (max-width: 1200px) { 
+    html{
+    font-size: 56.25%; 
+  }}
+
+  @media (max-width: 992px) { 
+    html{
+    font-size: 50%; 
+  }
+  }
+  @media (max-width: 576px) { 
+    html{
+    font-size: 43.75%; 
+  }
+}
+
+  @media (min-width: 1800px) { 
+    html{
+    font-size: 75%; 
+  }
+}
+
+
+
+
